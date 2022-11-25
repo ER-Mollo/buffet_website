@@ -10,14 +10,11 @@ function Header() {
       <div className="info">
         <video className='videoTag' autoPlay loop muted>
             <source src={sample} type='video/mp4' />
-            <div className="info_content">
-            <img src={logo}/>
-        </div>
         </video>
        
         <div className="info_buttons">
-            <img src={logo}/><br></br>
-            <button className="button">About Me</button><br/>
+            <img src={logo}/>
+            <button className="button">About Me</button>
             <button className="button">View Profile</button>
         </div>
       </div>

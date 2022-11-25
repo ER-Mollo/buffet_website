@@ -2,6 +2,8 @@
 import React from "react";
 import './about.scss'
 import image from '../../assets/painter.png'
+import photo from '../../assets/photo.jpg'
+import logo from '../../assets/logo.png'
 
 
 
@@ -10,7 +12,7 @@ function About() {
     <div className="about">
       <div className="heading">
         <h2>About</h2>
-        <h1>Get To Know Me</h1>
+        <h1>Get To Know us</h1>
       </div>
       <div className="about_info">
         <div className="about_bio">
@@ -30,7 +32,7 @@ function About() {
         <div className="about_skills">
 
           <div className="skills">
-           <img src={image}/>
+           <img src={logo}/>
          
           </div>
           

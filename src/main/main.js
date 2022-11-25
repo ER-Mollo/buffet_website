@@ -10,7 +10,7 @@ function Main() {
   return (
     <div className="app">
         <Header/>
-        {/* <About/> */}
+        <About/>
         <Projects/>
         <Comments/>
     </div>
